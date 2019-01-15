@@ -4,7 +4,7 @@ import threading
 
 
 def even():
-    """ Method which prints even values """
+    """Method which prints even values"""
 
     for n in range(0, 101, 2):
         odd_printed.wait()
@@ -14,7 +14,7 @@ def even():
 
 
 def odd():
-    """ Method which prints odd values """
+    """Method which prints odd values"""
 
     for n in range(1, 101, 2):
         even_printed.wait()

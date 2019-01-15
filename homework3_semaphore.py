@@ -4,7 +4,7 @@ import threading
 
 
 def even(esem, osem):
-    """ Method which prints even values """
+    """Method which prints even values"""
 
     for n in range(0, 101, 2):
         osem.acquire()
@@ -13,7 +13,7 @@ def even(esem, osem):
 
 
 def odd(esem, osem):
-    """ Method which prints odd values """
+    """Method which prints odd values"""
 
     for n in range(1, 101, 2):
         esem.acquire()

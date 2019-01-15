@@ -4,7 +4,8 @@ import threading
 
 
 def printer(cond, start, stop):
-    """ Function which prints even/odd values depends on input values """
+    """Function which prints even/odd values depends on input values"""
+
     for n in range(start, stop, 2):
         with cond:
             cond.wait()

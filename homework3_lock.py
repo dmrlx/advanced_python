@@ -8,7 +8,7 @@ sleep_time = .05
 
 
 def even():
-    """ Function which prints even values only """
+    """Function which prints even values only"""
 
     n = 0
     while n <= 100:
@@ -20,7 +20,7 @@ def even():
 
 
 def odd():
-    """ Function which prints odd values only """
+    """Function which prints odd values only"""
 
     n = 0
     while n <= 100:
