@@ -4,7 +4,7 @@ import threading
 import time
 
 thread_lock = threading.Lock()
-sleep_time = .05
+sleep_time = .1
 
 
 def even():
